@@ -1,3 +1,59 @@
+/*Universal Stuff */
 * {
-color: #4C3F3F;
+    color: #4C3F3F;
 }
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.contained{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Index*/
+.side{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hidden{
+    display: none;
+}
+
+/*Resume*/
+
+
+
+
+
+/*Portfolio*/
+
+
+
+
+
+
+/*Portfolio webs*/
+
+
+
+
+
+/*Portfolio pics*/
+
+
+
+
+
+/*Contacts*/
+
+
