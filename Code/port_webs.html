@@ -9,29 +9,63 @@
 <header>
     <nav>
         <!-- takes the user to home -->
-        <img src="http://via.placeholder.com/120x120" alt="">
+        <a href="index.html"><img src="Images/BROWN_logo.PNG" alt=""></a>
         <!--Nav Bar-->
-        <ul>
-            <li>Resume</li>
-            <li>
-                <label for="porph">Portfolio</label>
-                <ul id="porph">
-                    <li>Website Designs</li>
-                    <li>Photo Editing and Logos</li>
-                </ul>
-            </li>
-            <li>Contact</li>
-        </ul>
+        <div class="yes">
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="show no">
+                <a href="portfolio_main.html">Portfolio</a>
+                <div class="hide">
+                    <a href="port_webs.html">Website Designs</a>
+                    <a href="port_pics.html">Photo Editing and Logos</a>
+                </div>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
     </nav>
 </header>
 <main>
     <section>
-        <article>
+        <article class="port">
+<!--        <script src="styling/prs_javascript.js"></script>-->
+        
+        
+        <h1 class="heading">Consider this a Portpholio of Websites I've made. (Right now, I only have access to show one, so I've disabled to button ): )</h1>
+            <form action="">
+                <input type="button" value="Click Me to Change the Picture!" onclick="hoBoi()">
+            </form>
+          <div class="finally">  
+                           <img class="port_pics" id="snapgram"  src="Images/td_distract.PNG" alt=""> 
+                            </div>
             
+
+            <p id="uno" class="indent">This is a picture from a website that my classmates and I made. This took participation from the entire classroom, and this individual page that you see here was my contribution (or at least part of it). I made the overall template for my group's section of the website, and we all worked on our own pages (with help from eachother when need be, of course). As I said, this is a little snippet of my page, what do you think?</p>
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
         </article>
     </section>
 </main>
-
+<footer>
+    <nav>
+        <div class="yes">
+           <div class="no"><a href="index.html">Home</a></div>
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="no">
+                <a href="portfolio_main.html">Portfolio</a>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
+    </nav>
+</footer>
 
 
 

@@ -4,34 +4,65 @@
     <meta charset="UTF-8">
     <title>My Photos!</title>
     <link rel="stylesheet" href="styling/pr3_css.css"/>
+    <script src="styling/prs_javascript.js"></script>
 </head>
 <body>
-   <header>
+<header>
     <nav>
         <!-- takes the user to home -->
-        <img src="http://via.placeholder.com/120x120" alt="">
+        <a href="index.html"><img src="Images/BROWN_logo.PNG" alt=""></a>
         <!--Nav Bar-->
-        <ul>
-            <li>Resume</li>
-            <li>
-                <label for="porph">Portfolio</label>
-                <ul id="porph">
-                    <li>Website Designs</li>
-                    <li>Photo Editing and Logos</li>
-                </ul>
-            </li>
-            <li>Contact</li>
-        </ul>
+        <div class="yes">
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="show no">
+                <a href="portfolio_main.html">Portfolio</a>
+                <div class="hide">
+                    <a href="port_webs.html">Website Designs</a>
+                    <a href="port_pics.html">Photo Editing and Logos</a>
+                </div>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
     </nav>
 </header>
 <main>
     <section>
-        <article>
+        <article class="port">
+           
+            
+            <h1 class="heading">Consider this a Portpholio of Pictures I've made.</h1>
+            <form action="">
+                <input type="button" value="Click Me to Change the Picture!" onclick="hoBoi()">
+            </form>
+          <div class="finally">  
+                           <img class="port_pics" id="snapgram"  src="Images/IMG_3753.JPG" alt=""> 
+                            </div>
+            
+          <p id="uno" class="indent">This Picture was made completely from scratch, and the first one I made on my own terms. I made it in Adobe Photoshop, and it really helped me learn my way around photoshop, along with new tools (e.g. The "swirl" tool). It showed my just how creative I could be with photoshop, and helped me push it's boundaries, yet I've still only scratced the surface.</p>
+          <p id="dos" class="hidden indent">This next pic isn't what it looks like... unless you think it looks like a videogame character made completely out of words... then that exactly what it looks like. It's just that, when I finished the photo, the text got all pixelated and hard to read. Again, in Photoshop, I pasted lines of this character's text onto a blackbackground and individually colored every single letter. I was lucky if I could do 6 letters at a time (I usually wasn't), so I took in total around 3-4 hours making this. Took a lot of patients.</p>
+          <p id="tres" class="hidden indent">This picture was again made in photoshop, except it was using the "Pen tool." The pen tool is notorious for being very difficult and painstaking to use, and even worse to master. With the 10+ hours I spent on tracing this one piece, I still am only a novice. Also, when I say "trace," I use it lightly, as the pen tool is based around manipulating curves, not actually drawing. It was hard, but I learned a lot about a few nitty-gritties Photoshop has with certain aspects of the pen tool.</p>
+            
+            
+            
+            
+            
+            
             
         </article>
     </section>
 </main>
-   
+<footer>
+    <nav>
+        <div class="yes">
+           <div class="no"><a href="index.html">Home</a></div>
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="no">
+                <a href="portfolio_main.html">Portfolio</a>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
+    </nav>
+</footer>
    
    
    

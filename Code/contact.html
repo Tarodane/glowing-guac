@@ -6,60 +6,82 @@
     <link rel="stylesheet" href="styling/pr3_css.css"/>
 </head>
 <body>
-   <header>
+<header>
     <nav>
         <!-- takes the user to home -->
-        <img src="http://via.placeholder.com/120x120" alt="">
+        <a href="index.html"><img src="Images/BROWN_logo.PNG" alt="" class="brown"></a>
         <!--Nav Bar-->
-        <ul>
-            <li>Resume</li>
-            <li>
-                <label for="porph">Portfolio</label>
-                <ul id="porph">
-                    <li>Website Designs</li>
-                    <li>Photo Editing and Logos</li>
-                </ul>
-            </li>
-            <li>Contact</li>
-        </ul>
+        <div class="yes">
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="show no">
+                <a href="portfolio_main.html">Portfolio</a>
+                <div class="hide">
+                    <a href="port_webs.html">Website Designs</a>
+                    <a href="port_pics.html">Photo Editing and Logos</a>
+                </div>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
     </nav>
 </header>
     <main>
         <section>
-            <article>
-               <h1>Feel Free to Contact Me!!</h1>
-                <div>
-                    <form action="">
-                       <label for="name">What's your full name?</label>
-                        <input type="text" id="name"><br>
-                        <label for="numb">What's your number?</label>
-                        <input type="text" id="numb"><br>
-                        <label for="m">What's your email?</label>
-                        <input type="text" id="em"><br>
-                        <label for="comp">What's your company/association?</label>
-                        <input type="text" id="comp">
-                    </form>
-                </div>
-                <div>
-                    <b>Phone Number</b><br>
-                    <img src="http://via.placeholder.com/600x600" alt="">
-                </div>
-                <div>
-                    <b>Email</b><br>
-                    <img src="http://via.placeholder.com/600x600" alt="">
-                </div>
-                <div>
-                    <b>Linkedin</b><br>
-                    <img src="http://via.placeholder.com/600x600" alt="">
-                </div>
-                <div>
-                    <b>Instagram</b><br>
-                    <img src="http://via.placeholder.com/600x600" alt="">
+            <article class="contact">
+                   <div>
+                       <h1 class="heading">Feel Free to Contact Me With...</h1>
+                            <form action="">
+                               <label for="name">Your Full Name.</label>
+                                <input type="text" id="name">
+                                <label for="numb">Your Full Number.</label>
+                                <input type="text" id="numb">
+                                <label for="m">Your Email.</label>
+                                <input type="text" id="em">
+                                <label for="comp">And Your Company/Association!</label>
+                                <input type="text" id="comp">
+                            </form>
+                   </div>
+                        <br>
+                        <br>
+                        <br>
+                    <h2>If You'd Like Other Methods of Contact, Then Here's My:</h2>
+                    <div class="contact_pictures">
+                        <div class="contact_pics">
+                            <div>
+                                <h2 class="heading">Phone number</h2>
+                                <a href="https://www.google.com/search?q=backwards+arrow&rlz=1C1CHFX_enUS660US660&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjDtvPzjazaAhUxq1kKHUYIC0MQ_AUICigB&biw=1440&bih=794&dpr=1"><img src="Images/my_number.PNG" alt=""></a>
+                            </div>
+                            <div>
+                                <h2 class="heading">Email</h2>
+                                <a href="https://mail.google.com" target="_blank"><img src="Images/gmail_logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="contact_pics">
+                            <div>
+                                <h2 class="heading" >Linkedin</h2>
+                                <a href="https://www.linkedin.com/in/tyler-brown-79a57215a/" target="_blank"><img src="Images/linkedin-logo.png" alt=""></a>
+                            </div>
+                            <div>
+                                <h2 class="heading">Instagram</h2>
+                                <a href="https://www.instagram.com/tyler_brown0/?hl=en" target="_blank"><img src="Images/instagram-logo1.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>   
     </main>
-   
+   <footer>
+    <nav>
+        <div class="yes">
+           <div class="no"><a href="index.html">Home</a></div>
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="no">
+                <a href="portfolio_main.html">Portfolio</a>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
+    </nav>
+</footer>
    
    
    

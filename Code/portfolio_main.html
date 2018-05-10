@@ -6,41 +6,52 @@
     <link rel="stylesheet" href="styling/pr3_css.css"/>
 </head>
 <body>
-  <header>
+<header>
     <nav>
         <!-- takes the user to home -->
-        <img src="http://via.placeholder.com/120x120" alt="">
+        <a href="index.html"><img src="Images/BROWN_logo.PNG" alt=""></a>
         <!--Nav Bar-->
-        <ul>
-            <li>Resume</li>
-            <li>
-                <label for="porph">Portfolio</label>
-                <ul id="porph">
-                    <li>Website Designs</li>
-                    <li>Photo Editing and Logos</li>
-                </ul>
-            </li>
-            <li>Contact</li>
-        </ul>
+        <div class="yes">
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="show no">
+                <a href="portfolio_main.html">Portfolio</a>
+                <div class="hide">
+                    <a href="port_webs.html">Website Designs</a>
+                    <a href="port_pics.html">Photo Editing and Logos</a>
+                </div>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
     </nav>
 </header>
    <main>
        <section>
-         <article>
+         <article class="por_main">
                <!-- Left side -->
                <div>
-               Click here for my Websites! <br>
-               <img src="http://via.placeholder.com/600x1000" alt="">
+               <h2 class="heading">Click here for my Websites!</h2>
+               <a href="port_pics.html"><img src="Images/capture_port_pics.PNG" alt=""></a>
                </div>
                <!-- Right side -->
                <div>
-               Click Here for my Photo Design/Editing! <br>
-                <img src="http://via.placeholder.com/600x1000" alt="">
+               <h2 class="heading">Click Here for my Photo Design/Editing!</h2>
+                <a href="port_webs.html"><img src="Images/capture_port_pics.PNG" alt=""></a>
                </div>
           </article>
        </section>
    </main>
-   
+   <footer>
+    <nav>
+        <div class="yes">
+           <div class="no"><a href="index.html">Home</a></div>
+            <div class="no"><a href="resume.html">Resume</a></div>
+            <div class="no">
+                <a href="portfolio_main.html">Portfolio</a>
+            </div>
+            <div class="no"><a href="contact.html">Contact</a></div>
+        </div>
+    </nav>
+</footer>
     
 </body>
 </html>
